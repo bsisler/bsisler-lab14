@@ -41,7 +41,7 @@ public class Server {
                 try {
                     int number = Integer.parseInt(numberString);
                     int factors = 0;
-                    for (int i = 0; i <= number; i++) {
+                    for (int i = 1; i <= number; i++) {
                         if (number % i == 0) {
                             factors++;
                         }
