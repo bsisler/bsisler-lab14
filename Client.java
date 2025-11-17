@@ -24,7 +24,6 @@ public class Client {
 
     public void handshake() {
         try {
-            PrintWriter output = new PrintWriter(socket.getOutputStream());
             output.println("12345");
             output.flush();
         } catch (Exception e) {
@@ -32,8 +31,15 @@ public class Client {
         }
     }
 
-    public String request(String p) {
-        return "";
+    public String request(String number) {
+        try {
+            output.println(number);
+            output.flush();
+            return input.readLine();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "error";
+        }
     }
 
     public void disconnect() {
