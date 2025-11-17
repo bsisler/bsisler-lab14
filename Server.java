@@ -33,7 +33,7 @@ public class Server {
                 PrintWriter output = new PrintWriter(clientSocket.getOutputStream(), true);
                 String handshake = input.readLine();
                 if (!"12345".equals(handshake)) {
-                    output.println(handshake);
+                    output.println("couldn't handshake");
                     clientSocket.close();
                     return;
                 }
@@ -67,10 +67,6 @@ public class Server {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    public void run() {
-
     }
 
     public void disconnect() {
