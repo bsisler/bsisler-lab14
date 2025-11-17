@@ -6,6 +6,8 @@ public class Client {
     String ip;
     int port;
     Socket socket;
+    PrintWriter output;
+    BufferedReader input;
 
     //Constructor
     public Client (String ip, int port) {
@@ -13,13 +15,21 @@ public class Client {
         this.port = port;
         try {
             socket = new Socket(ip, port);
+            output = new PrintWriter(socket.getOutputStream());
+            input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     public void handshake() {
-
+        try {
+            PrintWriter output = new PrintWriter(socket.getOutputStream());
+            output.println("12345");
+            output.flush();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public String request(String p) {
