@@ -26,7 +26,8 @@ public class Server {
 
     }
 
-    public ArrayList<LocalDateTime> getConectedTimes() {
-   
+    public ArrayList<LocalDateTime> getConnectedTimes() {
+        ArrayList<LocalDateTime> placeholder = new ArrayList<LocalDateTime>();
+        return placeholder;
     }
 }

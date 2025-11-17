@@ -5,10 +5,17 @@ import java.io.*;
 public class Client {
     String ip;
     int port;
+    Socket socket;
 
+    //Constructor
     public Client (String ip, int port) {
         this.ip = ip;
         this.port = port;
+        try {
+            socket = new Socket(ip, port);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void handshake() {
@@ -20,14 +27,18 @@ public class Client {
     }
 
     public void disconnect() {
-
+        try {
+            socket.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
     //Getters
 
     public Socket getSocket() {
-        
+        return socket;
     }
 
     public int getLocalAddress() {
@@ -35,6 +46,6 @@ public class Client {
     }
 
     public int getPort() {
-        return 0;
+        return socket.getPort();
     }
 }
