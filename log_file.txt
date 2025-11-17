@@ -1,0 +1,65 @@
+commit 5c7d6fc3a8bd8a3c7f8e1ad26a3302e8327e24fe
+Author: Briana <bsisler81@gmail.com>
+Date:   Sun Nov 16 23:35:27 2025 -0500
+
+    Fixed missing 'couldn't handshake'; passed test 8
+
+commit d3b8602887f1a90ed7f8fe62b2881a92ddd20521
+Author: Briana <bsisler81@gmail.com>
+Date:   Sun Nov 16 23:30:04 2025 -0500
+
+    Fixed Divide by 0 issue and passed tests 1-7
+
+commit 5d4a6f2e4bdf828f0aedf4ce52364af2b8e29b40
+Author: Briana <bsisler81@gmail.com>
+Date:   Sun Nov 16 23:26:28 2025 -0500
+
+    Created and Debugged to pass test case 5
+
+commit 66c6c7dccc4b7b4da9d269471643abd2eccd7f58
+Author: Briana <bsisler81@gmail.com>
+Date:   Sun Nov 16 22:21:51 2025 -0500
+
+    Debugged and passed Test 1
+
+commit c363879e42db1050ffe37cac959484bc41adbc6c
+Author: Briana <bsisler81@gmail.com>
+Date:   Sun Nov 16 22:15:17 2025 -0500
+
+    Drafted methods for Test 1; added junit test file
+
+commit 71f5033873fbded6a761309ab1172e03022ee0d1
+Author: Briana <bsisler81@gmail.com>
+Date:   Sun Nov 16 21:57:53 2025 -0500
+
+    Finished the skeleton with all methods for Server and Client
+
+commit 96caed035e324578b229713aee2337e9ac343996
+Author: Briana <bsisler81@gmail.com>
+Date:   Mon Nov 10 14:26:57 2025 -0500
+
+    Created skeleton for Client and Server
+
+commit 9b08ba6049fce0474692eec853523d36eb834678
+Author: Briana <bsisler81@gmail.com>
+Date:   Mon Nov 10 14:15:29 2025 -0500
+
+    Created Client and Server files
+
+commit 5728c2986c8b6248eed79a6357cc49bd62c7853c
+Author: Briana <bsisler81@gmail.com>
+Date:   Mon Nov 10 14:13:27 2025 -0500
+
+    Uploaded required Tester file
+
+commit 3ca8aaf2dfb05075d646253d919473d9b855ba4e
+Author: Briana <bsisler81@gmail.com>
+Date:   Mon Nov 10 12:30:26 2025 -0500
+
+    Uploaded required tester file
+
+commit 15f590fe3b6479acf89212663847fd6bb87626c9
+Author: Briana <bsisler81@gmail.com>
+Date:   Mon Nov 10 12:26:53 2025 -0500
+
+    Uploaded required tester file
